@@ -1,0 +1,33 @@
+    /* CSS styles for the game board */
+#board {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 40px;
+   width: 300px;
+   margin: 0 auto;
+   margin-top: 50px;
+}
+
+.cell {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 48px;
+   border: 1px solid #000;
+   cursor: pointer;
+   transition: background-color 0.3s;
+   width: 100px;
+   height: 100px;
+   /* Add a fixed height to make the cells square */
+}
+
+.cell:hover {
+   background-color: #eee;
+}
+
+/* CSS styles for the game status */
+#status {
+   text-align: center;
+   font-size: 24px;
+   margin-top: 20px;
+}
