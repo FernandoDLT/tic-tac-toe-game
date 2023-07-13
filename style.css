@@ -1,9 +1,15 @@
     /* CSS styles for the game board */
+
+h1 {
+   margin: 50px;
+   text-align: center;
+}
+
 #board {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    grid-gap: 40px;
-   width: 300px;
+   width: 400px;
    margin: 0 auto;
    margin-top: 50px;
 }
