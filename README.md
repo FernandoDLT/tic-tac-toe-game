@@ -14,6 +14,7 @@ You can play the game by visiting the [live demo](https://example.com).
 
 ## Screenshots
 
+
 ![Game Screenshot](screenshots/game.png)
 
 ## Getting Started
